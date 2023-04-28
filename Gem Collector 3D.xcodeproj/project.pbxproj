@@ -451,6 +451,7 @@
 				1A7E3F3329FA852800683916 /* icon2_spice_512.png */,
 				B68C5AEF132E6CD60015092E /* App */,
 				B64CE60E166682700087CF94 /* Source */,
+				B64CE661166682700087CF94 /* main.m */,
 				B64CE683166682B10087CF94 /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -505,7 +506,6 @@
 				B64CE64F166682700087CF94 /* Prefix.pch */,
 				B64CE650166682700087CF94 /* AppDelegate.h */,
 				B64CE651166682700087CF94 /* AppDelegate.m */,
-				B64CE661166682700087CF94 /* main.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
