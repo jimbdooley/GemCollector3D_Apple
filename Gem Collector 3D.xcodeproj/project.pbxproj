@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A7E3F3129FA84A400683916 /* LaunchScreenNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3029FA84A400683916 /* LaunchScreenNew.storyboard */; };
+		1A7E3F3229FA84A400683916 /* LaunchScreenNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3029FA84A400683916 /* LaunchScreenNew.storyboard */; };
+		1A7E3F3429FA852800683916 /* icon2_spice_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3329FA852800683916 /* icon2_spice_512.png */; };
+		1A7E3F3529FA852800683916 /* icon2_spice_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3329FA852800683916 /* icon2_spice_512.png */; };
+		1A7E3F3829FAA9AD00683916 /* icon600_trans.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3729FAA9AD00683916 /* icon600_trans.png */; };
+		1A7E3F3929FAA9AD00683916 /* icon600_trans.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3729FAA9AD00683916 /* icon600_trans.png */; };
+		1A7E3F4129FAAC6E00683916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F4029FAAC6E00683916 /* Assets.xcassets */; };
+		1A7E3F4229FAAC6E00683916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F4029FAAC6E00683916 /* Assets.xcassets */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
@@ -21,7 +29,6 @@
 		B607AD0A132EB51000D7C3EA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B607AD09132EB51000D7C3EA /* OpenGLES.framework */; };
 		B607AD10132EB52400D7C3EA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B607AD0F132EB52400D7C3EA /* QuartzCore.framework */; };
 		B608CC831BFDDF4600403582 /* Assets-TV.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B608CC821BFDDF4600403582 /* Assets-TV.xcassets */; };
-		B608CC871BFDE43300403582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B608CC861BFDE43300403582 /* Assets.xcassets */; };
 		B62436681666851E0046B8C7 /* Ejecta.js in Resources */ = {isa = PBXBuildFile; fileRef = B64CE63F166682700087CF94 /* Ejecta.js */; };
 		B630048916C1A2390036D8D4 /* EJBindingTextMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = B630048816C1A1960036D8D4 /* EJBindingTextMetrics.m */; };
 		B630048C16CB098D0036D8D4 /* EJClassLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B630048B16CB09850036D8D4 /* EJClassLoader.m */; };
@@ -192,8 +199,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A7E3F3029FA84A400683916 /* LaunchScreenNew.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenNew.storyboard; sourceTree = "<group>"; };
+		1A7E3F3329FA852800683916 /* icon2_spice_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2_spice_512.png; path = ../../../Downloads/icon2_spice_512.png; sourceTree = "<group>"; };
+		1A7E3F3629FA856C00683916 /* icon2_spice_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2_spice_512.png; sourceTree = "<group>"; };
+		1A7E3F3729FAA9AD00683916 /* icon600_trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon600_trans.png; sourceTree = "<group>"; };
+		1A7E3F4029FAAC6E00683916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* Ejecta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ejecta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Gem Collector 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gem Collector 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		33BE9DE0186817D900E0D16E /* EJBindingImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJBindingImagePicker.h; sourceTree = "<group>"; };
@@ -210,7 +222,6 @@
 		B607AD09132EB51000D7C3EA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		B607AD0F132EB52400D7C3EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B608CC821BFDDF4600403582 /* Assets-TV.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets-TV.xcassets"; sourceTree = "<group>"; };
-		B608CC861BFDE43300403582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B630048716C1A1960036D8D4 /* EJBindingTextMetrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJBindingTextMetrics.h; sourceTree = "<group>"; };
 		B630048816C1A1960036D8D4 /* EJBindingTextMetrics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJBindingTextMetrics.m; sourceTree = "<group>"; };
 		B630048A16CB097F0036D8D4 /* EJClassLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJClassLoader.h; sourceTree = "<group>"; };
@@ -358,8 +369,7 @@
 		B6F463A31636C3FA00FC89C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B6F629CF16F353C600F16BAC /* EJBindingCanvasStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJBindingCanvasStyle.h; sourceTree = "<group>"; };
 		B6F629D016F353C700F16BAC /* EJBindingCanvasStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJBindingCanvasStyle.m; sourceTree = "<group>"; };
-		B6F714ED1BCF126A0082A90F /* Ejecta-TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejecta-TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6F714EE1BCF126B0082A90F /* Info-TV.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-TV.plist"; path = "/Users/dominic/xcode/Ejecta/Resources/Info-TV.plist"; sourceTree = "<absolute>"; };
+		B6F714ED1BCF126A0082A90F /* Gem Collector 3D-TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gem Collector 3D-TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F9AFBE169F81D400ABD91A /* EJBindingWindowEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJBindingWindowEvents.h; sourceTree = "<group>"; };
 		B6F9AFBF169F81D400ABD91A /* EJBindingWindowEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJBindingWindowEvents.m; sourceTree = "<group>"; };
 		B870BDE716F2E10400827F01 /* EJBindingWebGLExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EJBindingWebGLExtensions.h; path = WebGL/EJBindingWebGLExtensions.h; sourceTree = "<group>"; };
@@ -429,8 +439,8 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Ejecta.app */,
-				B6F714ED1BCF126A0082A90F /* Ejecta-TV.app */,
+				1D6058910D05DD3D006BFB54 /* Gem Collector 3D.app */,
+				B6F714ED1BCF126A0082A90F /* Gem Collector 3D-TV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -438,6 +448,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1A7E3F3329FA852800683916 /* icon2_spice_512.png */,
 				B68C5AEF132E6CD60015092E /* App */,
 				B64CE60E166682700087CF94 /* Source */,
 				B64CE683166682B10087CF94 /* Resources */,
@@ -617,12 +628,14 @@
 		B64CE683166682B10087CF94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B608CC861BFDE43300403582 /* Assets.xcassets */,
+				1A7E3F4029FAAC6E00683916 /* Assets.xcassets */,
+				1A7E3F3729FAA9AD00683916 /* icon600_trans.png */,
+				1A7E3F3629FA856C00683916 /* icon2_spice_512.png */,
+				1A7E3F3029FA84A400683916 /* LaunchScreenNew.storyboard */,
 				B64CE689166682B10087CF94 /* Info.plist */,
 				B637065D1A27BD5600F42B90 /* LaunchScreen.xib */,
 				B637065F1A27C15200F42B90 /* LaunchScreen-Logo.png */,
 				B608CC821BFDDF4600403582 /* Assets-TV.xcassets */,
-				B6F714EE1BCF126B0082A90F /* Info-TV.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -720,9 +733,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Ejecta */ = {
+		1D6058900D05DD3D006BFB54 /* Gem Collector 3D */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Ejecta" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Gem Collector 3D" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -732,14 +745,14 @@
 			);
 			dependencies = (
 			);
-			name = Ejecta;
+			name = "Gem Collector 3D";
 			productName = iOSImpact;
-			productReference = 1D6058910D05DD3D006BFB54 /* Ejecta.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* Gem Collector 3D.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B6F714811BCF126A0082A90F /* Ejecta-TV */ = {
+		B6F714811BCF126A0082A90F /* Gem Collector 3D-TV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6F714EA1BCF126A0082A90F /* Build configuration list for PBXNativeTarget "Ejecta-TV" */;
+			buildConfigurationList = B6F714EA1BCF126A0082A90F /* Build configuration list for PBXNativeTarget "Gem Collector 3D-TV" */;
 			buildPhases = (
 				B6F714821BCF126A0082A90F /* Resources */,
 				B6F714901BCF126A0082A90F /* Sources */,
@@ -749,9 +762,9 @@
 			);
 			dependencies = (
 			);
-			name = "Ejecta-TV";
+			name = "Gem Collector 3D-TV";
 			productName = iOSImpact;
-			productReference = B6F714ED1BCF126A0082A90F /* Ejecta-TV.app */;
+			productReference = B6F714ED1BCF126A0082A90F /* Gem Collector 3D-TV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -763,14 +776,14 @@
 				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = TYQN4X28QA;
+						DevelopmentTeam = 58BDL879D4;
 					};
 					B6F714811BCF126A0082A90F = {
 						DevelopmentTeam = TYQN4X28QA;
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Ejecta" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Gem Collector 3D" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -784,8 +797,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Ejecta */,
-				B6F714811BCF126A0082A90F /* Ejecta-TV */,
+				1D6058900D05DD3D006BFB54 /* Gem Collector 3D */,
+				B6F714811BCF126A0082A90F /* Gem Collector 3D-TV */,
 			);
 		};
 /* End PBXProject section */
@@ -795,11 +808,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7E3F3129FA84A400683916 /* LaunchScreenNew.storyboard in Resources */,
 				B68C5B95132E6CD60015092E /* App in Resources */,
+				1A7E3F3829FAA9AD00683916 /* icon600_trans.png in Resources */,
 				B637065E1A27BD5600F42B90 /* LaunchScreen.xib in Resources */,
 				B63706601A27C15200F42B90 /* LaunchScreen-Logo.png in Resources */,
 				B62436681666851E0046B8C7 /* Ejecta.js in Resources */,
-				B608CC871BFDE43300403582 /* Assets.xcassets in Resources */,
+				1A7E3F4129FAAC6E00683916 /* Assets.xcassets in Resources */,
+				1A7E3F3429FA852800683916 /* icon2_spice_512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -809,8 +825,12 @@
 			files = (
 				B6F714841BCF126A0082A90F /* App in Resources */,
 				B6F714891BCF126A0082A90F /* LaunchScreen-Logo.png in Resources */,
+				1A7E3F3229FA84A400683916 /* LaunchScreenNew.storyboard in Resources */,
 				B6F7148B1BCF126A0082A90F /* Ejecta.js in Resources */,
 				B608CC831BFDDF4600403582 /* Assets-TV.xcassets in Resources */,
+				1A7E3F3529FA852800683916 /* icon2_spice_512.png in Resources */,
+				1A7E3F4229FAAC6E00683916 /* Assets.xcassets in Resources */,
+				1A7E3F3929FAA9AD00683916 /* icon600_trans.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -970,21 +990,24 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 58BDL879D4;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/Source/lib\"",
 				);
 				OTHER_CFLAGS = "-DDEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = org.phoboslab.ejecta;
-				PRODUCT_NAME = Ejecta;
+				PRODUCT_BUNDLE_IDENTIFIER = jbdapplications.gemcollector3d;
+				PRODUCT_NAME = "Gem Collector 3D";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -996,17 +1019,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 58BDL879D4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
 				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/Source/lib\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.phoboslab.ejecta;
-				PRODUCT_NAME = Ejecta;
+				PRODUCT_BUNDLE_IDENTIFIER = jbdapplications.gemcollector3d;
+				PRODUCT_NAME = "Gem Collector 3D";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1132,7 +1158,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Ejecta" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Gem Collector 3D" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -1141,7 +1167,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6F714EA1BCF126A0082A90F /* Build configuration list for PBXNativeTarget "Ejecta-TV" */ = {
+		B6F714EA1BCF126A0082A90F /* Build configuration list for PBXNativeTarget "Gem Collector 3D-TV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6F714EB1BCF126A0082A90F /* Debug */,
@@ -1150,7 +1176,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Ejecta" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Gem Collector 3D" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

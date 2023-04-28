@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -11,25 +13,25 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen-Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="lpG-g1-tVl">
-                    <rect key="frame" x="112" y="204" width="256" height="72"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LaunchScreen-Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="lpG-g1-tVl">
+                    <rect key="frame" x="176" y="176" width="128" height="128"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="72" id="nMd-Xn-Qus"/>
                         <constraint firstAttribute="width" constant="256" id="s5J-sG-fqz"/>
                     </constraints>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.11372549019607843" green="0.11372549019607843" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.086821429431438446" green="0.086988240480422974" blue="0.081489644944667816" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="centerY" secondItem="lpG-g1-tVl" secondAttribute="centerY" id="VD0-Jx-N6E"/>
                 <constraint firstAttribute="centerX" secondItem="lpG-g1-tVl" secondAttribute="centerX" id="WuY-kp-hrz"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="404" y="445"/>
+            <point key="canvasLocation" x="403.05343511450383" y="444.36619718309862"/>
         </view>
     </objects>
     <resources>
-        <image name="LaunchScreen-Logo.png" width="512" height="144"/>
+        <image name="LaunchScreen-Logo.png" width="512" height="512"/>
     </resources>
 </document>
