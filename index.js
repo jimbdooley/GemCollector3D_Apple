@@ -1,9 +1,4 @@
-/*
 
-	INSTRUCTIONS:
-	This file must be copied into ./App in order to work
-
-*/
 var w = window.innerWidth;
 var h = window.innerHeight;
 var scale = window.devicePixelRatio;
