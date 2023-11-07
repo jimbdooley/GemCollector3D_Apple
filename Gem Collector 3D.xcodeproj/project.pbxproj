@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		1A7E3F3129FA84A400683916 /* LaunchScreenNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3029FA84A400683916 /* LaunchScreenNew.storyboard */; };
 		1A7E3F3229FA84A400683916 /* LaunchScreenNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3029FA84A400683916 /* LaunchScreenNew.storyboard */; };
-		1A7E3F3429FA852800683916 /* icon2_spice_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3329FA852800683916 /* icon2_spice_512.png */; };
-		1A7E3F3529FA852800683916 /* icon2_spice_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3329FA852800683916 /* icon2_spice_512.png */; };
 		1A7E3F3829FAA9AD00683916 /* icon600_trans.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3729FAA9AD00683916 /* icon600_trans.png */; };
 		1A7E3F3929FAA9AD00683916 /* icon600_trans.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F3729FAA9AD00683916 /* icon600_trans.png */; };
-		1A7E3F4129FAAC6E00683916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F4029FAAC6E00683916 /* Assets.xcassets */; };
-		1A7E3F4229FAAC6E00683916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E3F4029FAAC6E00683916 /* Assets.xcassets */; };
+		1AB1E4F22A0377C5003FA068 /* icon2_spice_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1E4F12A0377C5003FA068 /* icon2_spice_512.png */; };
+		1AB1E4F32A0377C5003FA068 /* icon2_spice_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1E4F12A0377C5003FA068 /* icon2_spice_512.png */; };
+		1AB1E4F52A03780E003FA068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1E4F42A03780E003FA068 /* Assets.xcassets */; };
+		1AB1E4F62A03780E003FA068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1E4F42A03780E003FA068 /* Assets.xcassets */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
@@ -200,10 +200,10 @@
 
 /* Begin PBXFileReference section */
 		1A7E3F3029FA84A400683916 /* LaunchScreenNew.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenNew.storyboard; sourceTree = "<group>"; };
-		1A7E3F3329FA852800683916 /* icon2_spice_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2_spice_512.png; path = ../../../Downloads/icon2_spice_512.png; sourceTree = "<group>"; };
 		1A7E3F3629FA856C00683916 /* icon2_spice_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2_spice_512.png; sourceTree = "<group>"; };
 		1A7E3F3729FAA9AD00683916 /* icon600_trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon600_trans.png; sourceTree = "<group>"; };
-		1A7E3F4029FAAC6E00683916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		1AB1E4F12A0377C5003FA068 /* icon2_spice_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2_spice_512.png; sourceTree = "<group>"; };
+		1AB1E4F42A03780E003FA068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Gem Collector 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gem Collector 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -448,7 +448,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				1A7E3F3329FA852800683916 /* icon2_spice_512.png */,
+				1AB1E4F12A0377C5003FA068 /* icon2_spice_512.png */,
 				B68C5AEF132E6CD60015092E /* App */,
 				B64CE60E166682700087CF94 /* Source */,
 				B64CE661166682700087CF94 /* main.m */,
@@ -628,7 +628,7 @@
 		B64CE683166682B10087CF94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1A7E3F4029FAAC6E00683916 /* Assets.xcassets */,
+				1AB1E4F42A03780E003FA068 /* Assets.xcassets */,
 				1A7E3F3729FAA9AD00683916 /* icon600_trans.png */,
 				1A7E3F3629FA856C00683916 /* icon2_spice_512.png */,
 				1A7E3F3029FA84A400683916 /* LaunchScreenNew.storyboard */,
@@ -810,12 +810,12 @@
 			files = (
 				1A7E3F3129FA84A400683916 /* LaunchScreenNew.storyboard in Resources */,
 				B68C5B95132E6CD60015092E /* App in Resources */,
+				1AB1E4F22A0377C5003FA068 /* icon2_spice_512.png in Resources */,
 				1A7E3F3829FAA9AD00683916 /* icon600_trans.png in Resources */,
 				B637065E1A27BD5600F42B90 /* LaunchScreen.xib in Resources */,
 				B63706601A27C15200F42B90 /* LaunchScreen-Logo.png in Resources */,
 				B62436681666851E0046B8C7 /* Ejecta.js in Resources */,
-				1A7E3F4129FAAC6E00683916 /* Assets.xcassets in Resources */,
-				1A7E3F3429FA852800683916 /* icon2_spice_512.png in Resources */,
+				1AB1E4F52A03780E003FA068 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -825,11 +825,11 @@
 			files = (
 				B6F714841BCF126A0082A90F /* App in Resources */,
 				B6F714891BCF126A0082A90F /* LaunchScreen-Logo.png in Resources */,
+				1AB1E4F32A0377C5003FA068 /* icon2_spice_512.png in Resources */,
 				1A7E3F3229FA84A400683916 /* LaunchScreenNew.storyboard in Resources */,
 				B6F7148B1BCF126A0082A90F /* Ejecta.js in Resources */,
 				B608CC831BFDDF4600403582 /* Assets-TV.xcassets in Resources */,
-				1A7E3F3529FA852800683916 /* icon2_spice_512.png in Resources */,
-				1A7E3F4229FAAC6E00683916 /* Assets.xcassets in Resources */,
+				1AB1E4F62A03780E003FA068 /* Assets.xcassets in Resources */,
 				1A7E3F3929FAA9AD00683916 /* icon600_trans.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
